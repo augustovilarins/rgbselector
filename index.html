@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="picker"style="display:flex">
+        <div id="range" >
+            <div class="inputArea">
+                <label for="">(R)Vermelho: </label><input type="range" min="0" max="255" step="1" class="test"><input type="text" class="textColor" size = '1' >
+            </div>
+            <div class="inputArea">
+                <label for="">(G)Verde: </label><input type="range" min="0" max="255" step="1" class="test"> <input type="text" class="textColor" size = '1' disabled>
+            </div>
+            <div class="inputArea">
+                <label for="">(B)Azul: </label><input type="range" min="0" max="255" step="1" class="test"><input type="text" class="textColor" size = '1' disabled>
+            </div>
+        </div>
+        <div id="display"></div>
+    </div>
+    
+
+    <script src="./js/scrpit.js"></script>
+</body>
+</html>
